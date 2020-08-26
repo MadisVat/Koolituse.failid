@@ -1,7 +1,5 @@
 package ValiIT.Madis;
 
-import java.util.Arrays;
-
 public class Lesson3 {
 
     public static void main(String[] args) {
@@ -10,8 +8,10 @@ public class Lesson3 {
         //System.out.println(sum2(x));
         //System.out.println(factorial(5));
         //System.out.println(alg(7));
-        int[] a = {15, 10, 5, 20};
-        System.out.println(Arrays.toString(sort(a)));
+        //int[] a = {15, 10, 5, 20};
+        //System.out.println(Arrays.toString(sort(a)));
+        System.out.println(reverseString("Madis"));
+
     }
 
     private static int alg(int i) {
@@ -61,6 +61,7 @@ public class Lesson3 {
                     temp = a[i];
                     a[i] = a[j];
                     a[j] = temp;
+
                 }
             }
         }
@@ -103,7 +104,9 @@ public class Lesson3 {
         // Näiteks:
         // a = "Test";
         // return tseT";
-        return "";
+        char[] a = a.toCharArray();
+        char[] reverseA = new char[a.length];
+        return "a";
 
         /*
         * String numbers = "01010101"
