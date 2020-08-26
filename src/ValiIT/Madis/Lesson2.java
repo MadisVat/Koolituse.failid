@@ -18,9 +18,9 @@ public class Lesson2 {
 
     public static void exercise1() {
 
-        // TODO loo 10 elemendile täisarvude massiv
-        // TODO loe sisse konsoolist 10 täisarvu
-        // TODO trüki arvud välja vastupidises järiekorras
+        //  loo 10 elemendile täisarvude massiv
+        //  loe sisse konsoolist 10 täisarvu
+        //  trüki arvud välja vastupidises järiekorras
 
         Scanner scanner = new Scanner(System.in);
         int[] m;
