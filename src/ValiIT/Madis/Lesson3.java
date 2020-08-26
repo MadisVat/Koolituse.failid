@@ -1,5 +1,7 @@
 package ValiIT.Madis;
 
+import java.util.Arrays;
+
 public class Lesson3 {
 
     public static void main(String[] args) {
@@ -10,13 +12,14 @@ public class Lesson3 {
         //System.out.println(alg(7));
         //int[] a = {15, 10, 5, 20};
         //System.out.println(Arrays.toString(sort(a)));
-        System.out.println(reverseString("Madis"));
+        //System.out.println(reverseString("Madis"));
 
     }
 
     private static int alg(int i) {
         //  kui i on paaris arv tagasta i/2
         //  kui i on paaritu arv tagasta i*3+1
+
         if (i % 2 == 0) {
             return i / 2;
         }
@@ -26,9 +29,9 @@ public class Lesson3 {
 
     public static int sum(int x, int y) {
         //liida kokku ja tagasta x ja y väärtus
-        //int a = Integer.sum(x, y);
         int a = x + y;
         return a;
+        //int a = Integer.sum(x, y);
     }
 
     public static int sum2(int[] x) {
@@ -65,6 +68,8 @@ public class Lesson3 {
                 }
             }
         }
+        return a;
+
         /* VÄLJAPRINDI TEEB KUTSUNG MAIN'IST
         for (int i = 0; i < a.length - 1; i++)
         {
@@ -72,7 +77,6 @@ public class Lesson3 {
         }
         System.out.print(a[a.length - 1]);
         */
-        return a;
     }
 
     /*for (int i = 0; i < a.length - 1; i++) {
@@ -104,8 +108,8 @@ public class Lesson3 {
         // Näiteks:
         // a = "Test";
         // return tseT";
-        char[] a = a.toCharArray();
-        char[] reverseA = new char[a.length];
+        // char[] a = a.toCharArray();
+        //char[] reverseA = new char[a.length];
         return "a";
 
         /*
@@ -113,6 +117,8 @@ public class Lesson3 {
 char[] charNumbers = numbers.toCharArray();
 char[] resultNumbers = new char[numbers.lenght];
 
+*
+*
 char min = charNumbers[0];
 int index = 0;
 for(int j = 0 ;j=charNumbers.length;j++){

@@ -57,8 +57,10 @@ public class Lesson1MathUtil {
             } else {
                 System.out.println("Sisestatud number ei ole paarisarv");
             }
-
+        } else if (sisend.equals("isEven") != true) {
+            System.out.println("Te ei sisestanud korrektset funktsiooni nime...try again");
         }
+
     }
 
     public static int min(int a, int b) {

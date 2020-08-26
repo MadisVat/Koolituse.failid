@@ -7,10 +7,10 @@ public class Lesson2 {
 
     public static void main(String[] args) {
         //exercise1();
-        //exercise2(4);
-        //exercise3(2, 5);
-        fibonacci(7); //enne oli 5
-        exercise5();
+        //exercise2(52);
+        exercise3(15, 12);
+        //fibonacci(7); //enne oli 5
+        //exercise5();
     }
 
     //int a = scanner.nextInt();
@@ -23,8 +23,7 @@ public class Lesson2 {
         //  trüki arvud välja vastupidises järiekorras
 
         Scanner scanner = new Scanner(System.in);
-        int[] m;
-        m = new int[5];
+        int[] m = new int[5];
         System.out.println("Sisestage 5 numbrit!");
 
         for (int i = 0; i < 5; i++) {
