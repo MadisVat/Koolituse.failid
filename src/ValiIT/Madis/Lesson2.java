@@ -7,19 +7,19 @@ public class Lesson2 {
 
     public static void main(String[] args) {
         //exercise1();
-        //exercise2(52);
-        exercise3(15, 12);
+        //exercise2(5);
+        //exercise3(3, 4);
         //fibonacci(7); //enne oli 5
-        //exercise5();
+        exercise5(21);
+        // SISESTAMINE mingiF(); //+altshifenter tekitab meetodi full auto
     }
 
     //int a = scanner.nextInt();
     //Scanner scanner = new Scanner(System.in);
 
     public static void exercise1() {
-
-        //  loo 10 elemendile täisarvude massiv
-        //  loe sisse konsoolist 10 täisarvu
+        //  loo 5 elemendile täisarvude massiv
+        //  loe sisse konsoolist 5 täisarvu
         //  trüki arvud välja vastupidises järiekorras
 
         Scanner scanner = new Scanner(System.in);
@@ -37,9 +37,8 @@ public class Lesson2 {
     }
 
     public static void exercise2(int x) {
-        // TODO prindi välja x esimest paaris arvu
-        // Näide:
-        // Sisend 5
+        //  prindi välja x esimest paaris arvu
+        // Näide: Sisend 5
         // Väljund 2 4 6 8 10
 
         for (int i = 2; i <= x * 2; i += 2) {
@@ -52,14 +51,12 @@ public class Lesson2 {
     }
 
     public static void exercise3(int x, int y) {
-        // TODO trüki välja korrutustabel mis on x ühikut lai ja y ühikut kõrge
-        //int tabel[ x][y];
-        // TODO näiteks x = 3 y = 3
-        // TODO väljund
+        //  trüki välja korrutustabel mis on x ühikut lai ja y ühikut kõrge
+        //  näiteks x = 3 y = 3
+        //  väljund
         // 1 2 3
         // 2 4 6
         // 3 6 9
-        //int y = x+1;
 
         for (int j = 1; j <= y; j++) {
 
@@ -99,13 +96,26 @@ public class Lesson2 {
 
     }
 
-
-
-
-    public static void exercise5() {
+    // ALGNE == public static void exercise5() {
+    public static int exercise5(int n) {
         // https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=36
+        // 1. input n
+        // 2. print n
+        // 3. if n = 1 then STOP
+        // 4.       if n is odd then n ←− 3n + 1
+        // 5.       else n ←− n/2
+        // 6. GOTO 2
+        if (n == 1) {
+            return 1;
+        } else if (n % 2 != 0) {
+            return n * 3 + 1;
+        }
+        return 0;
+
     }
 
+
+    //päriselt raske
     public static void exercise6() {
         /*
             Kirjutada Java programm, mis loeb failist visits.txt sisse looduspargi külastajad erinevatel jaanuari päevadel ning
@@ -123,6 +133,7 @@ public class Lesson2 {
         BigDecimal d = new BigDecimal("4");
     }
 
+    //päriselt raske
     public static void exercise8() {
         /*
         Failis nums.txt on üksteise all 150 60-kohalist numbrit.
@@ -135,6 +146,7 @@ public class Lesson2 {
          */
     }
 
+    //päriselt raske
     public static void exercise9() {
         /* TODO
         Sama mis eelmises ülesandes aga ära kasuta BigInt ega BigDecimal klassi

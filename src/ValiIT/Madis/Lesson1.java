@@ -23,7 +23,6 @@ public class Lesson1 {
     }
 
     public static void excersie2() {
-        // TODO
         // Loo muutujad x1 = 10 ja x2 = 20, vali sobiv andmetüüp
         int x1 = 10;
         int x2 = 20;
@@ -40,7 +39,6 @@ public class Lesson1 {
     }
 
     public static void excersie3() {
-        // TODO
         // Loo arvulised muutujad
         // a = 18 % 3
         // b = 19 % 3
@@ -58,7 +56,6 @@ public class Lesson1 {
     }
 
     public static void excersie4() {
-        // TODO
         // Defineeri String tüüpi muutuja mille sisu oleks "\"\\""
         // Varu - \"\\"\\\"\"
         // Trüki muutuja sisu välja

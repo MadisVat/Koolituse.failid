@@ -64,7 +64,7 @@ public class Lesson1MathUtil {
     }
 
     public static int min(int a, int b) {
-        // TODO tagasta a ja b väikseim väärtus
+        // tagasta a ja b väikseim väärtus
         if (a < b) {
             return a;
         }
@@ -72,7 +72,7 @@ public class Lesson1MathUtil {
     }
 
     public static int max(int a, int b) {
-        // TODO tagasta a ja b suurim väärtus
+        // tagasta a ja b suurim väärtus
         if (a > b) {
             return a;
         }
@@ -80,7 +80,7 @@ public class Lesson1MathUtil {
     }
 
     public static int abs(int a) {
-        // TODO tagasta a absoluut arv
+        // tagasta a absoluut arv
         if (a >= 0) {
             return a;
         }
@@ -88,7 +88,7 @@ public class Lesson1MathUtil {
     }
 
     public static boolean isEven(int a) {
-        // TODO tagasta true, kui a on paaris arv
+        //  tagasta true, kui a on paaris arv
         if (a % 2 == 0) {
             return true;
         }
@@ -97,7 +97,7 @@ public class Lesson1MathUtil {
     }
 
     public static int min(int a, int b, int c) {
-        // TODO tagasta a, b ja c väikseim väärtus
+        // tagasta a, b ja c väikseim väärtus
         if (a <= b && a <= c) {
             return a;
         } else if (b <= a && b <= c) {
@@ -110,7 +110,7 @@ public class Lesson1MathUtil {
     }
 
     public static int max(int a, int b, int c) {
-        // TODO tagasta a, b ja c suurim väärtus
+        // tagasta a, b ja c suurim väärtus
         if (a >= b && a >= c) {
             return a;
         } else if (b >= a && b >= c) {
