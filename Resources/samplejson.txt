@@ -1,0 +1,66 @@
+//1  https://jsonlint.com/
+
+{
+	"listOfClients": [{
+		"name": "Apple",
+		"age": 15,
+		"address": "Uus 8",
+		"carlist": [{
+			"Number": 1,
+			"Brand": "BMW"
+		}]
+	}, {
+		"name": "Nokia",
+		"age": 30,
+		"address": "Finland",
+		"carlist": [{
+			"Number": 2,
+			"Brand": "Audi"
+		}]
+	}, {
+		"name": "Motorola",
+		"age": 5,
+		"address": "Murica",
+		"carlist": [{
+			"Number": 3,
+			"Brand": "Toyota"
+		}]
+	}]
+}
+
+//2
+{
+	"listOfClients": [{
+			"name": "Apple",
+			"age": 15,
+			"address": "Uus 8",
+			"carlist": [{
+				"Number": 1,
+				"Brand": "Honda"
+			}, {
+				"Number": 2,
+				"Brand": "BMW"
+			}]
+		}, {
+			"name": "Nokia",
+			"age": 30,
+			"address": "Finland",
+			"carlist": [{
+				"Number": 1,
+				"Brand": "Audi"
+			}, {
+				"Number": 2,
+				"Brand": "Audi"
+			}]
+		},
+		{
+			"name": "Motorola",
+			"age": 5,
+			"address": "Murica",
+			"carlist": [{
+				"Number": 3,
+				"Brand": "Toyota"
+			}]
+		}
+	]
+}

@@ -72,7 +72,7 @@ public class Lesson2 {
         // Fibonacci jada on fib(n) = fib(n-1) + fib(n-2);
         // F1=0, F2=1, 1, 2, 3, 5, 8, 13, 21
         // Tagasta fibonacci jada n element
-
+        // Raivo: "Ilus teha rekussiooniga"
 
         int[] a = new int[n];
         a[0] = 0;

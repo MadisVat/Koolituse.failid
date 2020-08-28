@@ -3,13 +3,13 @@ package ValiIT.Madis;
 public class Lesson1 {
 
     public static void main(String[] args) {
-        excersie1();
-        excersie2();
-        excersie3();
-        excersie4();
+        excersise1();
+        excersise2();
+        excersise3();
+        excersise4();
     }
 
-    public static void excersie1() {
+    public static void excersise1() {
         // defineeri 3 muutujat a = 1, b = 1, c = 3
         int a = 1;
         int b = 1;
@@ -22,7 +22,7 @@ public class Lesson1 {
         System.out.println(a == b && a == c);
     }
 
-    public static void excersie2() {
+    public static void excersise2() {
         // Loo muutujad x1 = 10 ja x2 = 20, vali sobiv andmetüüp
         int x1 = 10;
         int x2 = 20;
@@ -38,7 +38,7 @@ public class Lesson1 {
         // Analüüsi tulemusi
     }
 
-    public static void excersie3() {
+    public static void excersise3() {
         // Loo arvulised muutujad
         // a = 18 % 3
         // b = 19 % 3
@@ -55,7 +55,7 @@ public class Lesson1 {
         System.out.println(d);
     }
 
-    public static void excersie4() {
+    public static void excersise4() {
         // Defineeri String tüüpi muutuja mille sisu oleks "\"\\""
         // Varu - \"\\"\\\"\"
         // Trüki muutuja sisu välja
