@@ -13,6 +13,7 @@ public class Lesson3Hard {
         return 0;
     }
 
+
     public static void randomGame(){
         // TODO kirjuta mäng mis võtab suvalise numbri 0-100, mille kasutaja peab ära arvama
         // iga kord pärast kasutaja sisestatud täis arvu peab programm ütlema kas number oli suurem või väiksem
