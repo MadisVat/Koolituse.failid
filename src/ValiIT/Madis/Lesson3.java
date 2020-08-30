@@ -6,7 +6,7 @@ public class Lesson3 {
         //System.out.println(sum(150, 90));
         //int[] x = {10, 20, 30, 40};
         // System.out.println(sum2(x));
-        //System.out.println(factorial(7));
+        System.out.println(factorial(5));
         //System.out.println(alg(7));
         //int[] a = {15, 10, 5, 20};
         //System.out.println(Arrays.toString(sort(a)));
