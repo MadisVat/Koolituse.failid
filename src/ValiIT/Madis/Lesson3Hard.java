@@ -27,6 +27,7 @@ public class Lesson3Hard {
     public static String morseCode(String text){
         // TODO kirjuta programm, mis tagastab sisestatud teksti morse koodis (https://en.wikipedia.org/wiki/Morse_code)
         // Kasuta sümboleid . ja -
+        //hashmap
         return "";
     }
 }

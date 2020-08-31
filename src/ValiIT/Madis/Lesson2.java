@@ -9,8 +9,14 @@ public class Lesson2 {
         //exercise1();
         //exercise2(5);
         //exercise3(3, 4);
-        //fibonacci(7); //enne oli 5
-        System.out.print(exercise5(15));
+
+        // FIBONACCI
+        int n = 9;
+        for (int i = 0; i <=n; i++) {
+            System.out.print(fibonacci(i)+" ");
+        }
+        //System.out.print(fibonacci(16));
+        //System.out.print(exercise5(15));
         // SISESTAMINE mingiF(); //+altshifenter tekitab meetodi full auto
 
     }
@@ -75,13 +81,16 @@ public class Lesson2 {
         // Tagasta fibonacci jada n element
         // Raivo: "Ilus teha rekurssiooniga"
 
-        //if (n > 1) {
-        //   return n * fibonacci(x - 1);
-        //} else if (x == 1 || x == 0) {
-        //   return 1;
-        //} else {
+        if (n > 2) {
+            return fibonacci(n - 1) + fibonacci(n - 2);
+        } else if (n == 2) {
+            return 1;
+        } else if (n == 1) {
+            return 0;
+        }
         return 0;
     }
+
 /*
         int[] a = new int[n];
         a[0] = 0;
@@ -104,7 +113,7 @@ public class Lesson2 {
 
 
     // ALGNE == public static void exercise5() {
-    public static int exercise5(int n) {
+  /*  public static int exercise5(int n) {
         // https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=36
         // 1. input n
         // 2. print n
@@ -113,25 +122,25 @@ public class Lesson2 {
         // 5.       else n ←− n/2
         // TODO 6. GOTO 2
 
-        if (n == 1) {
-            return n;
-        } else if (n % 2 != 0) {
-            return n * 3 + 1;
-        } else {
-            return n / 2;
+            if (n == 1) {
+                return n;
+            } else if (n % 2 != 0) {
+                return n * 3 + 1;
+            } else {
+                return n / 2;
+            }
+
         }
 
-    }
-
-
+*/
     //päriselt raske
     public static void exercise6() {
-        /*
-            TODO Kirjutada Java programm, mis loeb failist visits.txt sisse looduspargi külastajad erinevatel jaanuari päevadel ning
-            TODO a) sorteerib külastuspäevad külastajate arvu järgi kasvavalt ning prindib tulemuse konsoolile;
-            b) prindib konsoolile päeva, mil külastajaid oli kõige rohkem.
-            Faili asukoht tuleb programmile ette anda käsurea parameetrina.
-         */
+
+        //   TODO Kirjutada Java programm, mis loeb failist visits.txt sisse looduspargi külastajad erinevatel jaanuari päevadel ning
+        //   TODO a) sorteerib külastuspäevad külastajate arvu järgi kasvavalt ning prindib tulemuse konsoolile;
+        //  b) prindib konsoolile päeva, mil külastajaid oli kõige rohkem.
+        //   Faili asukoht tuleb programmile ette anda käsurea parameetrina.
+
     }
 
     public static void exercise7() {
@@ -144,22 +153,23 @@ public class Lesson2 {
 
     //päriselt raske
     public static void exercise8() {
-        /*
-        TODO Failis nums.txt on üksteise all 150 60-kohalist numbrit.
 
-        TODO Kirjuta programm, mis loeks antud numbrid failist sisse ja liidaks need arvud kokku ning kuvaks ekraanil summa.
-        TODO Faili nimi tuleb programmile ette anda käsurea parameetrina.
+        //    TODO Failis nums.txt on üksteise all 150 60 - kohalist numbrit.
 
-        VASTUS:
-        Õige summa: 77378062799264987173249634924670947389130820063105651135266574
-         */
+        //          TODO Kirjuta programm, mis loeks antud numbrid failist sisse ja liidaks need arvud kokku ning kuvaks
+        //   ekraanil summa.
+        //   TODO Faili nimi tuleb programmile ette anda käsurea parameetrina.
+
+        //          VASTUS:
+        //   Õige summa:77378062799264987173249634924670947389130820063105651135266574
+
     }
 
     //päriselt raske
     public static void exercise9() {
-        /* TODO
-        TODO Sama mis eelmises ülesandes aga ära kasuta BigInt ega BigDecimal klassi
-         */
+        // TODO
+        // TODO Sama mis eelmises ülesandes aga ära kasuta BigInt ega BigDecimal klassi
+
     }
 
 }
