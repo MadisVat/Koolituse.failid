@@ -11,11 +11,27 @@ public class Lesson2 {
         //exercise3(3, 4);
 
         // FIBONACCI
-        int n = 9;
-        for (int i = 0; i <=n; i++) {
-            System.out.print(fibonacci(i)+" ");
-        }
+        /*int n = 9;
+        for (int i = 0; i <= n; i++) {
+            System.out.print(fibonacci(i) + " ");
+        }*/
         //System.out.print(fibonacci(16));
+
+        // EX 5
+        int n = 15;
+        if (n > 1) {
+            boolean keepgoing = false;
+            while (false) {
+                exercise5(n) = n;
+                System.out.print(n);
+
+
+            }
+
+
+        }
+
+
         //System.out.print(exercise5(15));
         // SISESTAMINE mingiF(); //+altshifenter tekitab meetodi full auto
 
@@ -75,11 +91,9 @@ public class Lesson2 {
     }
 
     public static int fibonacci(int n) {
-        // TODO
         // Fibonacci jada on fib(n) = fib(n-1) + fib(n-2);
         // F1=0, F2=1, 1, 2, 3, 5, 8, 13, 21
         // Tagasta fibonacci jada n element
-        // Raivo: "Ilus teha rekurssiooniga"
 
         if (n > 2) {
             return fibonacci(n - 1) + fibonacci(n - 2);
@@ -113,26 +127,22 @@ public class Lesson2 {
 
 
     // ALGNE == public static void exercise5() {
-  /*  public static int exercise5(int n) {
+    public static int exercise5(int n) {
         // https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=36
         // 1. input n
         // 2. print n
         // 3. if n = 1 then STOP
         // 4.       if n is odd then n ←− 3n + 1
         // 5.       else n ←− n/2
-        // TODO 6. GOTO 2
-
-            if (n == 1) {
-                return n;
-            } else if (n % 2 != 0) {
-                return n * 3 + 1;
-            } else {
-                return n / 2;
-            }
-
+        // 6. GOTO 2
+        if (n % 2 != 0) {
+            return n * 3 + 1;
+        } else {
+            return n / 2;
         }
+    }
 
-*/
+
     //päriselt raske
     public static void exercise6() {
 
