@@ -11,8 +11,17 @@ public class Lesson3 {
         //int[] a = {15, 10, 5, 20};
         //System.out.println(Arrays.toString(sort(a)));
         //System.out.println(reverseString("Madis"));
-        System.out.println(isPrime(39));
+        //System.out.println(isPrime(39));
+        extra1(4, 6);
+    }
 
+    private static void extra1(int x, int y) {
+        for (int i = 0; i < y; i++) {
+            for (int j = 1; j <= x; j++) {
+                System.out.print(i + j + " ");
+            }
+            System.out.println("");
+        }
     }
 
     private static int alg(int i) {
