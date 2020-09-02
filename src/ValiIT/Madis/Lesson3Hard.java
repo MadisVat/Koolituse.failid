@@ -3,6 +3,7 @@ package ValiIT.Madis;
 import java.util.Random;
 
 // Enne kui seda tegema hakkad tee ära Lesson 2 (välja arvatud ülesanded 6, 8, 9)
+
 public class Lesson3Hard {
     public static void main(String[] args) {
 
@@ -15,7 +16,7 @@ public class Lesson3Hard {
 
 
     public static void randomGame(){
-        // TODO kirjuta mäng mis võtab suvalise numbri 0-100, mille kasutaja peab ära arvama
+        // kirjuta mäng mis võtab suvalise numbri 0-100, mille kasutaja peab ära arvama
         // iga kord pärast kasutaja sisestatud täis arvu peab programm ütlema kas number oli suurem või väiksem
         // ja kasutaja peab saama uuesti arvata
         // numbri ära aramise korral peab programm välja trükkima mitu katset läks numbri ära arvamiseks
