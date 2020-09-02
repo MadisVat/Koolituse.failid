@@ -9,7 +9,7 @@ public class Lesson2 {
         //exercise1();
         //exercise2(5);
         //exercise3(3, 4);
-        System.out.println(exercise5(15));
+        System.out.println(arvutus(10));
 
         // FIBONACCI
         /*int n = 9;
@@ -124,7 +124,7 @@ public class Lesson2 {
 
 
     // ALGNE == public static void exercise5() {
-    public static int exercise5(int n) {
+    public static void exercise5(int n) {
         // https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=36
         /*Consider the following algorithm:
         1. input n
@@ -161,20 +161,26 @@ public class Lesson2 {
         System.out.println("Palun sisestage jada vahemiku algus(0<) ja lõpp(<10000)");
         int algus = scanner.nextInt();
         int löpp = scanner.nextInt();
+//läbi teha kõik algusest lõppu fori'ga
+// peaks väljastama vahemiku kohta pikima ringi
 
 
-        int i = 0;
-        while (!(n == 0)) {
+    }
+
+    //peaks väljastama counteriga, et mitu ringi tegi
+    public static int arvutus(int n) {
+        int counter = 0;
+        int x = n;
+        while (!(n == 1)) {
             if (n % 2 != 0) {
                 n = n * 3 + 1;
             } else {
                 n = n / 2;
             }
-            i++;
+            counter++;
         }
-        return n;
-
-
+        System.out.println(x + ". Count: " + counter);
+        return counter;
     }
 
 
