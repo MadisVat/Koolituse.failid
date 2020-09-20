@@ -19,7 +19,7 @@ public class Lesson1MathUtil {
         String sisend = scanner.nextLine();
 
         if (sisend.equals("min2")) {
-            System.out.println("Palun sisestage 2 numbrit");
+            System.out.println("Palun sisestage 2 numbrit") ;
             int a = scanner.nextInt();
             int b = scanner.nextInt();
             System.out.println("väikseim number = " + min(a, b));
