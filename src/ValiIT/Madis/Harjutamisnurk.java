@@ -6,11 +6,12 @@ import java.util.Scanner;
 public class Harjutamisnurk {
 
     public static void main(String[] args) {
-        miski1();
+//        miski1();
 //        miski2();
-        miski3();
-        miski4();
+//        miski3();
+//        miski4();
 //        miski5();
+            miski6();
 
 
     }
@@ -52,6 +53,21 @@ public class Harjutamisnurk {
         capitalCities.put("Norway", "Oslo");
         capitalCities.put("USA", "Washington DC");
         System.out.println(capitalCities);
+    }
+
+
+    public static void miski5() {
+                for (int i = 2; i <= 10; i=i+2) {
+            System.out.println(i * 2);
+        }
+    }
+
+    public static void miski6() {
+        int i = 2;
+        while (i<=10){
+            System.out.print(i*2+", ");
+            i=i+2;
+        }
     }
 
 }
